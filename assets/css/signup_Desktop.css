@@ -1,0 +1,85 @@
+/* Css styles for larger screen sizes Pc etc.*/
+
+@media only screen and (min-width: 810px) {
+    #for_new_form {
+        background-color: aqua;
+        height: 100vh;
+    }
+    .log_in_form {
+        height: -webkit-fill-available;
+        padding-block-start: 70px
+    }
+    #sign_up_form {
+        display: grid;
+        margin: 20px;
+        background-color: white;
+        padding-inline-start: 35px;
+        padding-inline-end: 35px;
+        padding-block-start: 35px;
+        padding-block-end: 35px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border: dashed;
+        margin-inline-start: 450px;
+        margin-inline-end: 450px;
+    }
+    #for_new_form>div>form>label:nth-child(1) {
+        padding: 10px 0 10px 0;
+        font-size: 25px;
+        font-family: system-ui;
+    }
+    #for_new_form>div>form>label:nth-child(4) {
+        padding: 10px 0 10px 0;
+        font-size: 25px;
+        font-family: system-ui;
+    }
+    #for_new_form>div>form>label:nth-child(7) {
+        padding: 10px 0 10px 0;
+        font-size: 25px;
+        font-family: system-ui;
+    }
+    #sign_up_e-mail,
+    #sign_up_username,
+    #sign_up_password {
+        height: 50px;
+        text-align: center;
+        font-family: system-ui;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #sign_up_btn {
+        height: 50px;
+        justify-content: center;
+        font-family: system-ui;
+    }
+}
+
+
+/* 
+@media only screen and (min-width: 805px) {
+    .login_form {
+        margin-inline-start: 300px;
+        margin-inline-end: 300px;
+    }
+} */
+
+@media only screen and (max-height: 450px) {
+    #sign_up_form {
+        margin-inline-start: 150px;
+        margin-inline-end: 150px;
+    }
+}
+
+
+/* @media only screen and (max-width: 800px) {
+    .login_form {
+        margin-inline-start: 250px;
+        margin-inline-end: 250px;
+    }
+} */
