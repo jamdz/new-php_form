@@ -58,7 +58,7 @@
         padding-block-start: 70px
     }
     /*This is for login Form*/
-    #login_form {
+    .mobile_login_form {
         display: grid;
         margin: 20px;
         background-color: white;
@@ -107,6 +107,9 @@
         height: 50px;
         justify-content: center;
         font-family: system-ui;
+        background-color: powderblue;
+        border-radius: 20px;
+        border-style: dotted;
     }
 }
 

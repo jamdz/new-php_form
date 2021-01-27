@@ -8,7 +8,7 @@
         padding-block-start: 100px;
     }
     /*This is for login Form*/
-    #sign_up_form {
+    .mobile_sign_up_form {
         display: grid;
         margin: 20px;
         background-color: white;
@@ -22,8 +22,6 @@
         -ms-border-radius: 25px;
         -o-border-radius: 25px;
         border: dashed;
-        margin-inline-start: 150px;
-        margin-inline-end: 150px;
     }
 }
 
@@ -44,7 +42,7 @@
         padding-block-start: 70px
     }
     /*This is for login Form*/
-    #sign_up_form {
+    .mobile_sign_up_form {
         display: grid;
         margin: 20px;
         background-color: white;
@@ -59,7 +57,7 @@
         -o-border-radius: 25px;
         border: dashed;
     }
-    #sign_up_flex_remember_me {
+    #sign_up_flex_reme_me {
         display: inline-flex;
     }
     #for_new_form>div>form>label:nth-child(1) {
@@ -77,9 +75,9 @@
         font-size: 25px;
         font-family: system-ui;
     }
-    #sign_up_e-mail,
-    #sign_up_username,
-    #sign_up_password {
+    #sign_up_mail,
+    #sign_up_user,
+    #sign_up_pass {
         height: 50px;
         text-align: center;
         font-family: system-ui;
@@ -89,10 +87,19 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    #sign_up_btn {
+    #sign_up_button {
         height: 50px;
         justify-content: center;
         font-family: system-ui;
+    }
+    #sign_up_remem {
+        background-color: initial;
+        cursor: default;
+        appearance: checkbox;
+        box-sizing: border-box;
+        margin: 3px 3px 3px 4px;
+        padding: initial;
+        border: initial;
     }
 }
 

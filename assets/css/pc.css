@@ -9,7 +9,7 @@
         height: -webkit-fill-available;
         padding-block-start: 70px
     }
-    #login_form {
+    .desktop_login_form {
         display: grid;
         margin: 20px;
         background-color: white;
@@ -23,8 +23,8 @@
         -ms-border-radius: 25px;
         -o-border-radius: 25px;
         border: dashed;
-        margin-inline-start: 450px;
-        margin-inline-end: 450px;
+        margin-inline-start: 300px;
+        margin-inline-end: 300px;
     }
     #for_new_form>div>form>label:nth-child(1) {
         padding: 10px 0 10px 0;
